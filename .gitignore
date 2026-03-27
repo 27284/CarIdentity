@@ -1,0 +1,30 @@
+# Git 内部文件
+.git/
+.git_backup/
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.swp
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# 数据集/大文件（车牌识别项目核心！）
+carIdentityData/
+images.rar
+*.jpg
+*.png
+*.jpeg
+*.zip
+*.rar
+
+# 日志/临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
